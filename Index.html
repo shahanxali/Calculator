@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+       <meta charset="utf-8" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="lay.css" id="theme" />
+      <title>Calculator</title>     
+    </head>
+
+    <body>
+
+
+
+        <div class="wrapper">
+    <div class="container">
+      <div class="header-container">
+        <h1 id="toast">Calculator</h1>
+
+      </div>
+
+
+
+
+
+      <div class="first-row">
+            <input type="text" name="result" id="result" placeholder="Result" readonly />
+      </div>
+            
+          <div class="firsthalf-row">
+            
+              <input type="buttonback" value="&larr;" onclick="deleteCharacter()" id="delete-button"   />
+              <input type="button" value="C" onclick="clearDisplay()" id="clear-button" />
+            
+          </div>
+          
+          
+          <div class="second-row">
+            <input type="button" value="1" onclick="live(1)" />
+            <input type="button" value="2" onclick="live(2)" />
+            <input type="button" value="3" onclick="live(3)" />
+            <input type="button" value="+" onclick="live('+')" />
+          </div>
+          <div class="third-row">
+            <input type="button" value="4" onclick="live(4)" />
+            <input type="button" value="5" onclick="live(5)" />
+            <input type="button" value="6" onclick="live(6)" />
+            <input type="button" value="-" onclick="live('-')" />
+          </div>
+          <div class="fourth-row">
+            <input type="button" value="7" onclick="live(7)" />
+            <input type="button" value="8" onclick="live(8)" />
+            <input type="button" value="9" onclick="live(9)" />
+            <input type="button" value="x" onclick="live('*')" />
+          </div>
+          <div class="fifth-row">
+            <input type="button" value="/" onclick="live('/')" />
+            <input type="button" value="0" onclick="live(0)" />
+            <input type="button" value="." onclick="live('.')" />
+            <input type="button" value="=" onclick="calculate()" />
+          </div>
+          <div class="sixth-row">
+            <input type="button" value="(" onclick="live('(')" />
+            <input type="button" value=")" onclick="live(')')" />
+            <input type="button" value="log" onclick="writelog()" />
+            <input type="button" value="^" onclick="live('^')" />
+          </div>
+        </div>
+      </div>
+  <script src="mainbe.js">
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+</html>
